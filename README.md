@@ -1,6 +1,8 @@
 # Socket Programming 4 Tasks
 # 1- Download a web page :TCP sockets - HTTP 
+### run app and type an http web page
 ![image](https://user-images.githubusercontent.com/58918060/236293481-7799890b-1a07-4272-8d20-81e7506bdf12.png)
+### connect to server and download page as html and save it to desktop
 ![image](https://user-images.githubusercontent.com/58918060/236293517-0b2a5bda-7cd7-4405-84e0-dc038668e4b1.png)
 ![image](https://user-images.githubusercontent.com/58918060/236293595-cc9d098e-ac48-42f4-8ca8-4db2394756b5.png)
 
@@ -21,15 +23,19 @@
 ![image](https://user-images.githubusercontent.com/58918060/236294948-ff25ff46-e33e-447f-b530-61ac90531ccf.png)
 
 # 4- Create a chatRoom using Threats and Sockets  
+### run server
 ![image](https://user-images.githubusercontent.com/58918060/236295185-0c11cd35-65ee-440f-98ec-e571ec874e4b.png)
-###
+### run clients 1,2,3
 ![image](https://user-images.githubusercontent.com/58918060/236295407-802261be-4859-4656-8420-f1a865d7f5af.png)
 ![image](https://user-images.githubusercontent.com/58918060/236295451-7d98ec80-3d2b-48dd-97b7-6a1bf892beb0.png)
 ![image](https://user-images.githubusercontent.com/58918060/236295492-f220d542-f2b8-4974-bfba-7f58656bf1b2.png)
+### clients 1,2,3 appear in server
 ![image](https://user-images.githubusercontent.com/58918060/236295563-e23d54ee-58ff-416b-be40-94e6a4d510cd.png)
+### send messages from clients 1,2,3 to each other and appear in each client terminal
 ![image](https://user-images.githubusercontent.com/58918060/236295867-ff229a5b-01cf-48d0-9461-c5f5648bb280.png)
 ![image](https://user-images.githubusercontent.com/58918060/236295906-cc416a7d-be74-4acc-a942-c4b020fb1615.png)
 ![image](https://user-images.githubusercontent.com/58918060/236295939-d34e6b81-4067-4aef-aa2b-ea1a682202d1.png)
+### all mesaages are appear in server terminal
 ![image](https://user-images.githubusercontent.com/58918060/236296010-04a1940d-2795-499a-8e76-da7eb25f994d.png)
 
 
