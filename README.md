@@ -7,16 +7,25 @@
 ![image](https://user-images.githubusercontent.com/58918060/236293595-cc9d098e-ac48-42f4-8ca8-4db2394756b5.png)
 
 # 2- File Transfer using TCP sockets 
+### run server and client
 ![image](https://user-images.githubusercontent.com/58918060/236293817-3d59772a-3f9a-4289-a39e-96f3a7225301.png)
+### connect to server
 ![image](https://user-images.githubusercontent.com/58918060/236293863-b9d8cc3f-55e5-4c5b-bf67-e504966bd395.png)
+### choose file to transfer from client to server
 ![image](https://user-images.githubusercontent.com/58918060/236294016-2a9e1d71-d5fe-40ca-b9bf-1c40873b8bec.png)
+### choose the location to save the recieved file in server side
 ![image](https://user-images.githubusercontent.com/58918060/236294076-8ab9c091-32fa-431e-9a7b-9d6b8a2689fb.png)
+###  show location of the recieved file
 ![image](https://user-images.githubusercontent.com/58918060/236294512-09525998-2b1f-44ff-9cae-001d87dd6c38.png)
 
 # 3- Image transfer over TCP socket 
+### run server and client
 ![image](https://user-images.githubusercontent.com/58918060/236294628-94fe2ed5-645d-420e-9c4f-e1f35b812a46.png)
+### connect to server
 ![image](https://user-images.githubusercontent.com/58918060/236294675-4d5e7ba8-8ca6-4230-ab4c-86c264f13232.png)
+### choose image to transfer from client to server
 ![image](https://user-images.githubusercontent.com/58918060/236294755-f1d0cb3e-a818-4717-828b-0e602f9dd23b.png)
+### choose the location to save the recieved image in server side
 ![image](https://user-images.githubusercontent.com/58918060/236294767-57c02506-d9e8-4ba0-a56e-fbab38d54a2a.png)
 ![image](https://user-images.githubusercontent.com/58918060/236294819-f1ac1dd0-5085-4f68-8ec7-589cc0e3f0c3.png)
 ![image](https://user-images.githubusercontent.com/58918060/236294886-e75e1587-a1b2-45a3-856b-ed0daa0b0f4a.png)
