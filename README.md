@@ -25,10 +25,11 @@
 ![image](https://user-images.githubusercontent.com/58918060/236294675-4d5e7ba8-8ca6-4230-ab4c-86c264f13232.png)
 ### choose image to transfer from client to server
 ![image](https://user-images.githubusercontent.com/58918060/236294755-f1d0cb3e-a818-4717-828b-0e602f9dd23b.png)
-### choose the location to save the recieved image in server side
 ![image](https://user-images.githubusercontent.com/58918060/236294767-57c02506-d9e8-4ba0-a56e-fbab38d54a2a.png)
+### choose the location to save the recieved image in server side
 ![image](https://user-images.githubusercontent.com/58918060/236294819-f1ac1dd0-5085-4f68-8ec7-589cc0e3f0c3.png)
 ![image](https://user-images.githubusercontent.com/58918060/236294886-e75e1587-a1b2-45a3-856b-ed0daa0b0f4a.png)
+###  show location of the recieved image
 ![image](https://user-images.githubusercontent.com/58918060/236294948-ff25ff46-e33e-447f-b530-61ac90531ccf.png)
 
 # 4- Create a chatRoom using Threats and Sockets  
