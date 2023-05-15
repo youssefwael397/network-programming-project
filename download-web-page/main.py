@@ -2,24 +2,24 @@ import socket
 import tkinter as tk
 import threading
 
-class Downloader:
+class WebDownloader:
     def __init__(self, url):
         self.url = url
-        self.host = self.get_host()
-        self.path = self.get_path()
+        self.host = self.extract_host()
+        self.path = self.extract_path()
 
-    def get_host(self):
+    def extract_host(self):
         # Extract the host name from the URL
         return self.url.split('/')[2]
 
-    def get_path(self):
+    def extract_path(self):
         # Extract the path from the URL
         return '/' + '/'.join(self.url.split('/')[3:])
 
     def download(self):
         # Open a TCP socket connection to the web server
         s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        print(f"Connecting to {self.host}...")     
+        print(f"Connecting to {self.host}...")
         s.connect((self.host, 80))
         print(f"Connected to {self.host}.")
 
@@ -40,7 +40,7 @@ class Downloader:
 
         # Save the response to a file
         try:
-            with open("C:/Users/BodyKh/Desktop/webpage.html", "w" , encoding="utf-8") as f:
+            with open("C:/Users/BodyKh/Desktop/webpage.html", "w", encoding="utf-8") as f:
                 content = response.split('\r\n\r\n')[1]
                 print(f"Writing {len(content)} bytes to file...")
                 f.write(content)
@@ -48,9 +48,8 @@ class Downloader:
         except Exception as e:
             print(f"Error writing file: {e}")
 
-        
 
-class GUI:
+class WebDownloaderGUI:
     def __init__(self):
         self.root = tk.Tk()
         self.root.geometry("300x100")
@@ -69,9 +68,9 @@ class GUI:
 
     def download(self):
         url = self.url_entry.get()
-        downloader = Downloader(url)
+        downloader = WebDownloader(url)
         t = threading.Thread(target=downloader.download)
         t.start()
 
 if __name__ == '__main__':
-    gui = GUI()
+    gui = WebDownloaderGUI()
